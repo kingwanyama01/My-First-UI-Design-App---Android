@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#FF0000"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="10pt"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000D98"
+        android:textSize="30sp"
+        android:id="@+id/mTvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eMobilis Mobile Technology Institute" />
+
+    <EditText
+        android:layout_marginTop="20pt"
+        android:textSize="20sp"
+        android:textColorHint="#635EFF"
+        android:hint="Email..."
+        android:id="@+id/mEdtMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_marginTop="20pt"
+        android:textSize="20sp"
+        android:textColorHint="#635EFF"
+        android:id="@+id/mEdtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password..."
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_marginTop="30pt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="100dp"
+            android:textColor="#02044C"
+            android:background="#20000995"
+            android:id="@+id/mBtnReg"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Register" />
+
+        <Button
+            android:layout_marginRight="15dp"
+            android:textColor="#02044C"
+            android:background="#20000995"
+            android:id="@+id/mBtnLog"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Login" />
+    </LinearLayout>
+</LinearLayout>
+
